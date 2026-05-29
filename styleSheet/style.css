@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: #ed6fff;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  font-weight: bold;
+  color: pink;
+  margin: 1em;
+
+}
+
+.card {
+  width: 400px;
+  padding: 8px;
+  background-color: bisque;
+  margin: 20px auto;
+  border: double 0.5em pink;
+}
